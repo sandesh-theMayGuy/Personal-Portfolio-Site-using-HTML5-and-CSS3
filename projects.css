@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+    box-sizing: border-box;
+    height:50rem;
+  }
+
+  h1#header{
+    font-family: 'Alumni Sans Inline One', cursive , sans-serif;
+    font-weight: bolder;
+    color:#0484b9e8;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+
+  }
+  div{
+    background-color: #302b63;
+    margin: 2rem;
+    border:1px;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  div.container{
+    height:90%;
+  }
+
+  div.project-div{
+    width:20%;
+    position:relative;
+    height:30%;
+    border:2px solid;
+    background-color: rgb(8 38 50 / 84%);
+  }
+
+  .project-image{
+        height:8rem;
+        width:90%;
+        position:absolute;
+        top:30%;
+        left:5%;
+  }
+
+  div.project-div a{
+    font-size: larger;
+    position:absolute;
+    left:25%;
+    color:white;
+    text-decoration: none;
+    margin-top: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  div.project-div a:hover{
+    cursor:pointer;
+    color:black;
+  }
+
+  div.project-div:hover{
+    /* width:25%; */
+    /* height:35%; */
+    background-color: #20769ae8;
+  }
+  .view-on-github{
+     position:absolute;
+     top:13rem;
+     left:5rem;
+     color:white;
+     font-weight: bolder;
+     cursor:pointer;
+  }
+
