@@ -12,7 +12,7 @@ body{
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 1%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
     display:flex;
@@ -123,15 +123,24 @@ body{
   }
 
   button{
-     
+      /* width:5rem; */
       width:4rem;
       height:3.7rem;
+      /* margin-left:23rem; */
+  
+      /* margin-left: 25rem;
+      margin-top:-15rem; */
+      /* background:none; */
       border:2px;
       border-radius: 10px;
+      /* background-color: rgb(8 38 50 / 84%); */
       background-color: aliceblue;
+
       position:relative;
       left:9rem;
       bottom:3.8rem;
+    
+
   }
 
   button:hover{
@@ -150,6 +159,8 @@ body{
     right:3.8rem;
 
   }
+ 
+
 
   @keyframes typing {
     from { width: 0 }
@@ -160,5 +171,7 @@ body{
     from, to { border-color: transparent }
     50% { border-color: orange; } 
   }
-  
+
+
+
 
