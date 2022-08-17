@@ -21,6 +21,9 @@ body{
     border:1px;
     border-radius: 10px;
     display: flex;
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column; */
   }
 
   div.container{
@@ -33,7 +36,11 @@ body{
     height:30%;
     border:2px solid;
     background-color: rgb(8 38 50 / 84%);
+   
+
   }
+
+
 
   .project-image{
         height:8rem;
@@ -72,3 +79,19 @@ body{
      cursor:pointer;
   }
 
+  @media all and (max-width:900px){
+ 
+ div.container{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+ 
+ }
+
+ div.project-div{
+  
+  margin-left: 23%;
+  width:50%;
+
+ }
+  }
